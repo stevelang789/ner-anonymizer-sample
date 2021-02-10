@@ -1,4 +1,4 @@
-# ner-anonymizer-sample
+# NER Anonymizer Sample
 
 ## Overview
 
