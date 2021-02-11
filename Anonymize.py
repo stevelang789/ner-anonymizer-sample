@@ -53,7 +53,7 @@ f.write(message)
 f.write('\n')
 
 anonymized_df['Col003'] = anonymized_df['Col003'].replace(
-    to_replace=r'\b[a-z0-9]{32}\b',
+    to_replace=r'[a-z0-9]{32,999}',
     value='XYZ',
     regex=True
 )
